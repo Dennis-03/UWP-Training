@@ -1,0 +1,70 @@
+﻿<Page
+    x:Class="LaboriousLayout.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LaboriousLayout"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="24">Title1</TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Green" Width="100" Height="30"></Rectangle>
+                <Rectangle Fill="Black" Width="100" Height="30"></Rectangle>
+                <Rectangle Fill="Red" Width="100" Height="30"></Rectangle>
+            </StackPanel>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="24">Title2</TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Red" Width="100" Height="30"></Rectangle>
+                <Rectangle Fill="Black" Width="100" Height="30"></Rectangle>
+                <Rectangle Fill="Blue" Width="100" Height="30"></Rectangle>
+            </StackPanel>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="24">Title3</TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Blue" Width="100" Height="30"></Rectangle>
+                <Rectangle Fill="Black" Width="100" Height="30"></Rectangle>
+                <Rectangle Fill="Yellow" Width="100" Height="30"></Rectangle>
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</Page>
