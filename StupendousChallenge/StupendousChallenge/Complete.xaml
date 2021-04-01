@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="StupendousChallenge.Complete"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StupendousChallenge"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Background="White">
+
+        <Image Style="{StaticResource White_logo}"
+               Source="Assets/color-logo.png"/>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Image Source="Assets/ticket.jpg"
+                   Width="300"/>
+
+            <StackPanel Orientation="Vertical" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="Order"
+                           FontSize="36"/>
+                <TextBlock Text="96"
+                           FontSize="56"
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+    </StackPanel>
+</Page>
