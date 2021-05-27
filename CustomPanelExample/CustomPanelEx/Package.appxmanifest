@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="96631370-34c2-4a36-811e-37d349683d09"
+    Name="990dc2d4-baeb-47c4-b2f4-03f55d0f2119"
     Publisher="CN=dennis-pt4024"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="96631370-34c2-4a36-811e-37d349683d09" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="990dc2d4-baeb-47c4-b2f4-03f55d0f2119" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>NotifyPropertyChangedImplementation</DisplayName>
+    <DisplayName>CustomPanelEx</DisplayName>
     <PublisherDisplayName>dennis-pt4024</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="NotifyPropertyChangedImplementation.App">
+      EntryPoint="CustomPanelEx.App">
       <uap:VisualElements
-        DisplayName="NotifyPropertyChangedImplementation"
+        DisplayName="CustomPanelEx"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="NotifyPropertyChangedImplementation"
+        Description="CustomPanelEx"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
