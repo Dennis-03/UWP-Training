@@ -10,33 +10,36 @@
 
     <Grid>
         <local:Table Columns="10">
-            <Rectangle Fill="Red" Height="20" Width="10"/>
-            <Rectangle Fill="Blue" Height="20" Width="10"/>
-            <Rectangle Fill="Green" Height="20" Width="10"/>
-            <Rectangle Fill="Red" Height="20" Width="10"/>
-            <Rectangle Fill="Blue" Height="20" Width="10"/>
-            <Rectangle Fill="Green" Height="20" Width="10"/>
-            <Rectangle Fill="Red" Height="20" Width="10"/>
-            <Rectangle Fill="Blue" Height="20" Width="10"/>
-            <Rectangle Fill="Green" Height="20" Width="10"/>
-            <Rectangle Fill="Red" Height="20" Width="10"/>
-            <Rectangle Fill="Blue" Height="20" Width="10"/>
-            <Rectangle Fill="Green" Height="20" Width="10"/>
-            <Rectangle Fill="Red" Height="20" Width="10"/>
-            <Rectangle Fill="Blue" Height="20" Width="10"/>
-            <Rectangle Fill="Green" Height="20" Width="10"/>
-            <Rectangle Fill="Red" Height="20" Width="10"/>
-            <Rectangle Fill="Blue" Height="20" Width="10"/>
-            <Rectangle Fill="Green" Height="20" Width="10"/>
-            <Rectangle Fill="Red" Height="20" Width="10"/>
-            <Rectangle Fill="Blue" Height="20" Width="10"/>
-            <Rectangle Fill="Green" Height="20" Width="10"/>
-            <Rectangle Fill="Red" Height="20" Width="10"/>
-            <Rectangle Fill="Blue" Height="20" Width="10"/>
-            <Rectangle Fill="Green" Height="20" Width="10"/>
-            <Rectangle Fill="Red" Height="20" Width="10"/>
-            <Rectangle Fill="Blue" Height="20" Width="10"/>
-            <Rectangle Fill="Green" Height="20" Width="10"/>
+            <Rectangle Fill="Red" Height="100" Width="100"/>
+            <Rectangle Fill="Blue" Height="100" Width="100"/>
+            <Rectangle Fill="Green" Height="100" Width="100"/>
+            <Rectangle Fill="Red" Height="100" Width="100"/>
+            <Rectangle Fill="Blue" Height="100" Width="100"/>
+            <Rectangle Fill="Green" Height="100" Width="100"/>
+            <Rectangle Fill="Red" Height="100" Width="100"/>
+            <Rectangle Fill="Blue" Height="100" Width="100"/>
+            <Rectangle Fill="Green" Height="100" Width="100"/>
+            <Rectangle Fill="Red" Height="100" Width="100"/>
+            <Rectangle Fill="Blue" Height="100" Width="100"/>
+            <Rectangle Fill="Green" Height="100" Width="100"/>
+            <Rectangle Fill="Red" Height="100" Width="100"/>
+            <Rectangle Fill="Blue" Height="100" Width="100"/>
+            <Rectangle Fill="Green" Height="100" Width="100"/>
+            <Rectangle Fill="Red" Height="100" Width="100"/>
+            <Rectangle Fill="Blue" Height="100" Width="100"/>
+            <Rectangle Fill="Green" Height="100" Width="100"/>
+            <Rectangle Fill="Red" Height="100" Width="100"/>
+            <Rectangle Fill="Blue" Height="100" Width="100"/>
+            <Rectangle Fill="Green" Height="100" Width="100"/>
+            <Rectangle Fill="Red" Height="100" Width="100"/>
+            <Rectangle Fill="Blue" Height="100" Width="100"/>
+            <Rectangle Fill="Green" Height="100" Width="100"/>
+            <Rectangle Fill="Red" Height="100" Width="100"/>
+            <Rectangle Fill="Blue" Height="100" Width="100"/>
+            <Rectangle Fill="Green" Height="100" Width="100"/>
+            <Rectangle Fill="Red" Height="100" Width="100"/>
+            <Rectangle Fill="Blue" Height="100" Width="100"/>
+            <Rectangle Fill="Green" Height="100" Width="100"/>
         </local:Table>
     </Grid>
 </Page>
