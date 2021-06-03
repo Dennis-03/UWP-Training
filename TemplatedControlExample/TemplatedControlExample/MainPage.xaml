@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="TemplatedControlExample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TemplatedControlExample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel>
+        <local:ButtonControl
+            Name="Show"
+            Margin="50"
+            FontSize="22"
+            ButtonContent="Hello"
+            Background="Red"
+            CornerRadius="5"/>
+        <TextBlock Name="DisplayResult"/>
+    </StackPanel>
+</Page>
