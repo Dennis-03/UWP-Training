@@ -48,6 +48,7 @@ namespace TemplatedControlExample
         {
             ControlButton = GetTemplateChild(nameof(ControlButton)) as Button;
             ControlButton.Click += ControlButton_Click;
+            //ControlButton.AddHandler(KeyUpEvent, ControlButton_Click(), true);
         }
 
         private void ControlButton_Click(object sender, RoutedEventArgs e)
